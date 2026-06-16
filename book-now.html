@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Now — Visit Taniti</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">Visit Taniti</a>
+  <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">☰ Menu</button>
+  <nav id="site-nav" class="site-nav" aria-label="Primary">
+    <a href="index.html">Home</a>
+    <a href="things-to-do.html">Things to Do</a>
+    <a href="lodging.html">Lodging</a>
+    <a href="dining.html">Dining</a>
+    <a href="getting-around.html">Getting Around</a>
+    <a href="plan-your-trip.html">Plan Your Trip</a>
+    <a class="btn btn-primary" href="book-now.html" aria-current="page">Book Now</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Book Now</h1>
+  <p>Tell us what you'd like to book and we'll confirm your request.</p>
+
+  <form id="booking-form">
+    <p>
+      <label for="booking-item">What would you like to book?</label><br>
+      <select id="booking-item" name="item">
+        <option>Zip-lining tour</option>
+        <option>Volcano tour</option>
+        <option>Snorkeling</option>
+        <option>Fishing charter</option>
+        <option>Lodging — Hotel</option>
+        <option>Lodging — Resort</option>
+        <option>Lodging — B&amp;B</option>
+        <option>Lodging — Hostel</option>
+        <option>Lodging — Rental</option>
+      </select>
+    </p>
+    <p>
+      <label for="booking-name">Your name</label><br>
+      <input id="booking-name" name="name" type="text" required>
+    </p>
+    <p>
+      <label for="booking-date">Date</label><br>
+      <input id="booking-date" name="date" type="date" required>
+    </p>
+    <p>
+      <label for="booking-party">Party size</label><br>
+      <input id="booking-party" name="party" type="number" min="1" required>
+    </p>
+    <p>
+      <button type="submit" class="btn btn-primary">Submit request</button>
+    </p>
+    <p>We'll email you within one business day to confirm availability.</p>
+  </form>
+
+  <div id="booking-confirmation" hidden role="status"></div>
+</main>
+
+<!-- footer on every page -->
+<footer class="site-footer">
+  <p>Visit Taniti. <a href="plan-your-trip.html">Plan Your Trip</a> · <a href="book-now.html">Book Now</a></p>
+  <p>Questions? Taniti Tourism Office — info@visittaniti.example.</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

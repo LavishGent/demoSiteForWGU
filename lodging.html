@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lodging — Visit Taniti</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">Visit Taniti</a>
+  <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">☰ Menu</button>
+  <nav id="site-nav" class="site-nav" aria-label="Primary">
+    <a href="index.html">Home</a>
+    <a href="things-to-do.html">Things to Do</a>
+    <a href="lodging.html" aria-current="page">Lodging</a>
+    <a href="dining.html">Dining</a>
+    <a href="getting-around.html">Getting Around</a>
+    <a href="plan-your-trip.html">Plan Your Trip</a>
+    <a class="btn btn-primary" href="book-now.html">Book Now</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Lodging</h1>
+  <p>All lodging is regulated and regularly inspected by the Tanitian government — from hostels to a four-star resort, every property meets the same inspection standard.</p>
+
+  <div class="filter-bar" role="group" aria-label="Filter lodging by type">
+    <button class="btn filter-btn active" data-type="all">All</button>
+    <button class="btn filter-btn" data-type="resort">Resort</button>
+    <button class="btn filter-btn" data-type="hotel">Hotel</button>
+    <button class="btn filter-btn" data-type="bnb">B&amp;B</button>
+    <button class="btn filter-btn" data-type="hostel">Hostel</button>
+    <button class="btn filter-btn" data-type="rental">Rentals</button>
+  </div>
+
+  <div class="card-grid">
+    <div class="card" data-type="resort">
+      <h3>Yellow Leaf Bay Resort</h3>
+      <p>Taniti's four-star resort on the shore of Yellow Leaf Bay.</p>
+      <p><strong>$310 per night</strong> (demonstration pricing)</p>
+      <span class="badge">Gov. inspected ✓</span>
+      <p><a class="btn" href="book-now.html#item=Lodging%20%E2%80%94%20Resort">Book</a></p>
+    </div>
+    <div class="card" data-type="hotel">
+      <h3>Harborview Hotel</h3>
+      <p>Mid-range hotel with family rooms overlooking the harbor.</p>
+      <p><strong>$185 per night</strong> (demonstration pricing)</p>
+      <span class="badge">Gov. inspected ✓</span>
+      <p><a class="btn" href="book-now.html#item=Lodging%20%E2%80%94%20Hotel">Book</a></p>
+    </div>
+    <div class="card" data-type="hotel">
+      <h3>Taniti City Inn</h3>
+      <p>Simple, central hotel steps from Taniti City's shops and buses.</p>
+      <p><strong>$140 per night</strong> (demonstration pricing)</p>
+      <span class="badge">Gov. inspected ✓</span>
+      <p><a class="btn" href="book-now.html#item=Lodging%20%E2%80%94%20Hotel">Book</a></p>
+    </div>
+    <div class="card" data-type="bnb">
+      <h3>Merriton B&amp;B</h3>
+      <p>Cozy bed &amp; breakfast near the Merriton Landing activity hub.</p>
+      <p><strong>$120 per night</strong> (demonstration pricing)</p>
+      <span class="badge">Gov. inspected ✓</span>
+      <p><a class="btn" href="book-now.html#item=Lodging%20%E2%80%94%20B%26B">Book</a></p>
+    </div>
+    <div class="card" data-type="hostel">
+      <h3>Wayfarer Hostel</h3>
+      <p>Budget-friendly shared and private rooms for independent travelers.</p>
+      <p><strong>$45 per night</strong> (demonstration pricing)</p>
+      <span class="badge">Gov. inspected ✓</span>
+      <p><a class="btn" href="book-now.html#item=Lodging%20%E2%80%94%20Hostel">Book</a></p>
+    </div>
+    <div class="card" data-type="rental">
+      <h3>Bayside Beach House</h3>
+      <p>Private beach house rental with room for the whole family.</p>
+      <p><strong>$260 per night</strong> (demonstration pricing)</p>
+      <span class="badge">Gov. inspected ✓</span>
+      <p><a class="btn" href="book-now.html#item=Lodging%20%E2%80%94%20Rental">Book</a></p>
+    </div>
+  </div>
+</main>
+
+<!-- footer on every page -->
+<footer class="site-footer">
+  <p>Visit Taniti. <a href="plan-your-trip.html">Plan Your Trip</a> · <a href="book-now.html">Book Now</a></p>
+  <p>Questions? Taniti Tourism Office — info@visittaniti.example.</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
