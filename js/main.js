@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const item = form.elements['item'].value;
       const party = form.elements['party'].value;
       const conf = document.getElementById('booking-confirmation');
-      conf.textContent = `Thanks, ${name}! Your ${item} request was received for a party of ${party}. We'll email you within one business day to confirm availability. (Prototype only — no real booking.)`;
+      conf.textContent = `Thanks, ${name}! Your ${item} request was received for a party of ${party}. We'll email you within one business day to confirm availability.`;
       conf.hidden = false;
       conf.setAttribute('tabindex', '-1');
       conf.focus();
